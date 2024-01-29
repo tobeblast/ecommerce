@@ -122,7 +122,6 @@
   .man3{
     display: flex!important;
     margin-top: 20px;
-    /* margin-left: 5%; */
     gap: 20px;
   }
 
@@ -158,27 +157,21 @@
     gap: 20px;
   }
 
-  .man3:nth-child(1) {
-    width: 50%;
+  .cart {
+    width: 40%;
   }
 
-  .man3 :nth-child(1) img{
-    width: 300%!important;
-  }
-  
-  .man3:nth-child(2) {
-    width: 50%;
-  }
-
-  .man3:nth-child(2) img{
+  .cart img{
     width: 100%!important;
   }
-  .man {
-    /* display: none!important; */
+  
+  .avatar {
+    width: 55%;
   }
 
-  .man2 {
-    /* display: flex!important; */
+  .avatar img{
+    width: 100%!important;
+    margin-top: 8px;
   }
 
   .image-text{
