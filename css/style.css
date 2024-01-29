@@ -55,6 +55,12 @@
   width: 80%;
 }
 
+.low2 {
+  color: gray;
+  margin-top: 30px;
+  width: 80%;
+}
+
 .dol h4{
   font-style: normal;
   font-weight: bolder;
@@ -101,4 +107,120 @@
 
 .btn2 button p{
   margin-bottom: 0;
+}
+
+.man3{
+  display: none!important;
+}
+
+.na ul {
+  margin-left: 14rem!important;
+}
+
+@media(max-width:768px){
+
+  .man3{
+    display: flex!important;
+    margin-top: 20px;
+    /* margin-left: 5%; */
+    gap: 20px;
+  }
+
+  .man2{
+    display: none!important;
+  }
+
+  .na ul{
+    margin-left: 0!important;
+  }
+
+  .image-text{
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .images{
+    width: 100%!important;
+  }
+
+  .text{
+    width: 100%!important;
+    margin-top: 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media(max-width:500px) {
+
+  .man3 {
+    margin-top: -70px;
+    margin-left: 78%;
+    gap: 20px;
+  }
+
+  .man3:nth-child(1) {
+    width: 50%;
+  }
+
+  .man3 :nth-child(1) img{
+    width: 300%!important;
+  }
+  
+  .man3:nth-child(2) {
+    width: 50%;
+  }
+
+  .man3:nth-child(2) img{
+    width: 100%!important;
+  }
+  .man {
+    /* display: none!important; */
+  }
+
+  .man2 {
+    /* display: flex!important; */
+  }
+
+  .image-text{
+    margin-top: 40px;
+  }
+
+  .text{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .low{
+    width: 100%;
+  }
+
+  .price{
+    justify-content: center;
+  }
+
+  .btns{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn1{
+    width: 100%!important;
+  }
+
+  .btn1 button{
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .btn2{
+    width: 100%!important;
+  }
+
+  .btn2 button{
+    width: 100%!important;
+  }
 }
